@@ -15,4 +15,8 @@ public class CustomWinLogger: NSObject {
     open func performSegueToTradeIn() {
         print("performSegueToTradeIn")
     }
+    
+    open func printSuperCustomLog() {
+        print("this is the super custom log")
+    }
 }
