@@ -44,9 +44,9 @@
 		8EE84E3B6A92CB29EEF2F553 /* Pods-WinCommonLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinCommonLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-WinCommonLibrary_Example/Pods-WinCommonLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		963D90C5122D7E3A5699886D /* Pods-WinCommonLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinCommonLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WinCommonLibrary_Tests/Pods-WinCommonLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E877C3F9FE2E7589027D6C /* Pods-WinCommonLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinCommonLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-WinCommonLibrary_Tests/Pods-WinCommonLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CCDA527BD51B641108F9AACE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EB0CCE3D05446801958C64AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F908F071FD67A8B5D81A6B4C /* WinCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WinCommonLibrary.podspec; path = ../WinCommonLibrary.podspec; sourceTree = "<group>"; };
+		CCDA527BD51B641108F9AACE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB0CCE3D05446801958C64AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F908F071FD67A8B5D81A6B4C /* WinCommonLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WinCommonLibrary.podspec; path = ../WinCommonLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				963D90C5122D7E3A5699886D /* Pods-WinCommonLibrary_Tests.debug.xcconfig */,
 				B6E877C3F9FE2E7589027D6C /* Pods-WinCommonLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

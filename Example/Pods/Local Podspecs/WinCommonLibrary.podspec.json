@@ -1,0 +1,23 @@
+{
+  "name": "WinCommonLibrary",
+  "version": "0.1.0",
+  "summary": "WinCommonLibrary, useful library for developers",
+  "description": "'WinCommonLibrary, useful library for developers so no more redundant codes'",
+  "homepage": "https://github.com/winadiw/WinCommonLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "winadiw": "winadiw@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/winadiw/WinCommonLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_version": "4.2",
+  "source_files": "WinCommonLibrary/Classes/**/*"
+}

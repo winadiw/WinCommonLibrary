@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WinCommonLibrary'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WinCommonLibrary.'
+  s.version          = '1.0.1'
+  s.summary          = 'WinCommonLibrary, useful library for developers'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'WinCommonLibrary, useful library for developers so no more redundant codes'
                        DESC
 
-  s.homepage         = 'https://github.com/winadiw@gmail.com/WinCommonLibrary'
+  s.homepage         = 'https://github.com/winadiw/WinCommonLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'winadiw@gmail.com' => 'winadi@laku6.com' }
-  s.source           = { :git => 'https://github.com/winadiw@gmail.com/WinCommonLibrary.git', :tag => s.version.to_s }
+  s.author           = { 'winadiw' => 'winadiw@gmail.com' }
+  s.source           = { :git => 'https://github.com/winadiw/WinCommonLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'WinCommonLibrary/Classes/**/*'
   

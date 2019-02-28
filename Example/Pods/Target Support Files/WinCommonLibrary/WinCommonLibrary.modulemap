@@ -1,0 +1,6 @@
+framework module WinCommonLibrary {
+  umbrella header "WinCommonLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

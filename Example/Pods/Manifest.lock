@@ -1,0 +1,16 @@
+PODS:
+  - WinCommonLibrary (0.1.0)
+
+DEPENDENCIES:
+  - WinCommonLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  WinCommonLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WinCommonLibrary: 2cc99134b5484c11032101cf0661a1a792dbedb0
+
+PODFILE CHECKSUM: 438368ec1271e9764ad5e5bce88627f26b45adcd
+
+COCOAPODS: 1.6.1

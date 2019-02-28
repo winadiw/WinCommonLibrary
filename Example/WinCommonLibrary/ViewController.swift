@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import WinCommonLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let logger = CustomWinLogger()
+        
+        logger.printLog(message: "hi")
+        logger.performSegueToTradeIn()
     }
 
     override func didReceiveMemoryWarning() {
