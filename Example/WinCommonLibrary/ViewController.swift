@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         logger.printLog(message: "hi")
         logger.performSegueToTradeIn()
+        logger.printSuperCustomLog()
     }
 
     override func didReceiveMemoryWarning() {

@@ -19,4 +19,8 @@ public class CustomWinLogger: NSObject {
     open func printSuperCustomLog() {
         print("this is the super custom log")
     }
+    
+    open func printAnotherSuperCustomLog() {
+        print("this is the another super custom log")
+    }
 }
